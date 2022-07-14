@@ -1,0 +1,85 @@
+/* positioning the outer div in the center*/
+body {
+    display: flex;
+    justify-content: center;
+    padding: 72px 0px 112px;
+    background-color: #F0F2F5;
+}
+
+/*left div */
+div.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 40px;
+    padding: 20px 0;
+    width: 80%;
+}
+
+/* the header h1 : facebook*/
+h1 {
+    color: rgb(0, 0, 255);
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+/*the text under facebook*/
+p {
+    color: #29312E;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+/*right div*/
+div.second{
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom: 1.5em;
+}
+
+input {
+    height: 40px;
+    width: 90%;
+    padding: 4px 10px;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    border-width: 0.1px;
+}
+
+input#compte,input#conn {
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+input#conn {
+    background-color: blue;
+}
+
+input#compte {
+    background-color: #36A420;
+
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*modify the placeholder properties*/
+::placeholder{
+    font-size: 17px;
+}
+
